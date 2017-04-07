@@ -9,12 +9,17 @@ A quick starter file for writing tests with Python. This will work on Python
 import unittest
 
 
+# You can write your solution here if you want, or just import here.
 def my_function():
     raise Exception("Failed")
 
 
 class MyTests(unittest.TestCase):
 
+    # These 4 test cases are here to demonstrate some common test assertions.
+    # To check everything is working, try running the tests with:
+    #     python tests.py
+    # One test is broken - see if you can fix it!
     def test_equals(self):
         self.assertEqual("Hello", "Hello")
 
